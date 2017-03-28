@@ -1,6 +1,10 @@
-/* global React ReactDOM */
+import React from 'react'
+import ReactDOM from 'react-dom'
+import MyTitle from './MyTitle'
 
 var MyTitleFactory = React.createFactory(MyTitle)
+
+var div = React.DOM.div
 
 var MyFirstComponent = React.createClass({
   render: function () {

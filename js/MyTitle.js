@@ -1,4 +1,4 @@
-/* global React ReactDOM */
+import React from 'react'
 
 var div = React.DOM.div
 var h1 = React.DOM.h1
@@ -12,3 +12,10 @@ var MyTitle = React.createClass({
     )
   }
 })
+
+MyTitle.propTypes = {
+  color: React.PropTypes.string,
+  title: React.PropTypes.string
+}
+
+export default MyTitle
